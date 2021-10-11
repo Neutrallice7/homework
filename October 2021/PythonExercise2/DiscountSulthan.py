@@ -14,4 +14,4 @@ if Quantity >= 100:
 Discounted = (99*Quantity) * Discount/100
 Total = (99*Quantity) - Discounted
 
-print('Total amount: $',Total)
+print('Total amount: $', format(Total, '.2f'))
