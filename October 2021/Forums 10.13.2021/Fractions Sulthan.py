@@ -36,3 +36,6 @@ elif Numerator >= Denominator:
       print('The mixed fraction is', wNumber, 'and', remainder, '/', Denominator)
   else:
       print('The whole number is:', wNumber)
+
+
+# nano is underrated
