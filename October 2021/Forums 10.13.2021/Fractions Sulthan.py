@@ -2,12 +2,12 @@ import math
 
 
 Numerator = int(input('Insert your numerator here:'))
-while Numerator < 0:
+while Numerator < 1:
   print('The numerator must be bigger than 0.')
   Numerator = int(input('Insert your numerator here:'))
 
 Denominator = int(input('Insert your denominator here:'))
-while Denominator < 0:
+while Denominator < 1:
   print('The denominator must be bigger than 0.')
   Denominator = int(input('Insert your denominator here:'))
 
