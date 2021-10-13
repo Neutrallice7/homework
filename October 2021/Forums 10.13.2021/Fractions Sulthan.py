@@ -2,7 +2,7 @@ import math
 
 
 Numerator = int(input('Insert your numerator here:'))
-while Numerator < 1:
+while Numerator < 0:
   print('The numerator must be bigger than 0.')
   Numerator = int(input('Insert your numerator here:'))
 
