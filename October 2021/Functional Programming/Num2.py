@@ -2,9 +2,12 @@ import math
 
 # weight = mass * gravity 
 
-def calc_weight_on_planet(mass=120, gravity=23.1):
-    gravity = float(input('Insert gravity here (Leave for default): '))
-    return mass, gravity
+# try to find the mass in Earth -> use that mass to convert it to Jupiter??
 
-mass,gravity = calc_weight_on_planet()
-print('Your weight is ', mass * gravity)
+def calc_weight_on_planet(weight=120, gravity=23.1):
+    mass = weight / 9.8
+    newWeight = mass * gravity
+    return newWeight
+
+x = calc_weight_on_planet()
+print(x)
